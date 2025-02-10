@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.experiencia {
+    margin-bottom: 20px;
+}
+
+.educacao{
+    margin-bottom: 20px;
+}
+.contato a {
+    color: blue;
+    text-decoration: none;
+}
+
+.contato a:hover {
+    text-decoration: underline;
+}
+p, li {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.contato p {
+    margin: 5px 0;
+}
+
+.contato {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contato a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    padding-left: 20px;
+}
