@@ -1,52 +1,45 @@
-body {
-    font-family: Arial, sans-serif;
-    max-width: 600px;
-    margin: 20px auto;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
-}
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        .sidebar {
+            width: 30%;
+            background-color: #2E3C43;
+            color: white;
+            padding: 20px;
+            height: 100vh;
+            font-size: 15px
+        }
+        .content {
+            width: 70%;
+            padding: 40px;
+        }
+        h1 {
+            font-size: 40px;
+        }
+        h2 {
+            font-size: 20px;
+            margin-top: 20px;
+        }
 
-h1, h2 {
-    color: #333;
-}
+        p, a {
+            font-size: 20 px;
+            color: #000000;
+            text-decoration: none;
 
-.experiencia {
-    margin-bottom: 20px;
-}
+        }
+        span {
+            font-size: 20 px;
+            color: darkgray;
+        }
+        
+        .sidebar p, a {
+            color: #ddd;
+            display: block;
+            margin-top: 5px;
+        }
 
-.educacao{
-    margin-bottom: 20px;
-}
-.contato a {
-    color: blue;
-    text-decoration: none;
-}
 
-.contato a:hover {
-    text-decoration: underline;
-}
-p, li {
-    font-size: 14px;
-    line-height: 1.6;
-    color: #333;
-}
-
-.contato p {
-    margin: 5px 0;
-}
-
-.contato {
-    color: #000;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.contato a:hover {
-    text-decoration: underline;
-}
-
-ul {
-    padding-left: 20px;
-}
+ 
